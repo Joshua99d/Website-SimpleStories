@@ -1,0 +1,104 @@
+<!--  Author: Woon Jeen Tang - tangjeen@gmail.com-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>Simple stories</title>
+    <link rel="stylesheet" type="text/css" href="css/HW1_problem2.css"> 
+  </head>
+
+  <body background="images/bg.gif">
+    <div id="container">
+
+      <div id="block1"> 
+        <div id="header_right"><img id='logo' src="images/logo.jpg">  </img>
+          <ul class="nonDropDown">
+            <li id="navBar"><a id="active">Home  </a> </li>
+            <li id="navBar"><a href="#">About Us</a></li>
+            <li id="navBar"><a href="news.html" >Stories</a></li>
+            <li id="navBar"><a href="gallery.html" >Tellers</a></li>       
+            <li id="menu"><a href="#" >Join</a></li>
+            <li id="navBar"><a href="contactUs.html">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="Story">
+        <img id="header_left" src="images/icon1.gif"></img>
+        <p><span id="a1">    Story No.1 </span><br><span id="a2"> The story of the fox 1</span></p>  
+        <img id="" src="images/section1.jpg"><br>
+        <p> <strong>The quick brown fox 1</strong><br>
+          The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+        <p> The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+        <p> <strong>The quick brown fox 1</strong><br>
+       The quick brown fox jumps over the lazy dog. </p>
+       <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="Story">
+        <img id="header_left" src="images/icon1.gif">
+        <p>
+          <span id="a1"> Story No.2 </span>
+          <br>
+          <span id="a2"> The story of the fox 2</span>
+        </p>  
+        
+        <img id="" src="images/section2.jpg"><br>
+        <p> 
+          <strong>The quick brown fox 2</strong>
+          <br>
+          The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+        </p>
+       
+        <p> 
+          <strong>The quick brown fox 2</strong>
+          <br>
+          The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.
+        </p> 
+
+        <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="Story">
+        <img id="header_left" src="images/icon1.gif">
+        <p>
+          <span id="a1">    Story No.3 </span>
+          <br>
+          <span id="a2"> The story of lazy dog</span>
+        </p>  
+
+        <img id="" src="images/section3.jpg">
+        <br>
+        <p> 
+          <strong>Story of lazy dog</strong>
+          <br>
+          The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+         The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+         The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+        </p> 
+        <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="moreStory">
+        <p id="a1">  More Stories   </p>  
+          <img id="" class="thumbnail" src="images/p1.jpg"  style="alt:; "></img>  
+          <img id="" class="thumbnail" src="images/p2.jpg"   style=" alt:  "></img> 
+          <img id="" class="thumbnail" src="images/p3.jpg"  style="alt:; "></img>  
+      </div>
+
+      <div class="tellStory">
+        <p id="a1">  Tell me a story </p>    
+        <form id="form" method="POST" name="contactform"  action="send_form_email2.php">
+          <input id="input"    type="text" name="name" placeholder="What's your name?" size="30.5"></input>
+          <br>
+          <input id="input" class="lastInput" type="text"     name="story" class='required' placeholder="What's your story about?" size="30"></input>
+          <br>  
+          <input id="submit" class="submit" type="submit" name="submit" value="submit"></input>
+          <br>
+        </form> 
+      </div>  
+    </div> 
+  </body>
+</html>
